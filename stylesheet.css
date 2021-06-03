@@ -1,0 +1,281 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+
+ 
+ @media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+    .sdgimg{
+        flex-basis: 25%;
+        width: 400px;
+        
+        
+    }
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+ main{
+    padding: 20px;
+    overflow: auto;
+    float: left;
+    
+  }
+ .jumbotron{
+    height: 100px;
+    
+ }
+
+ /*
+ #headbackground{
+     background: url(img/headbg1.jpg) no-repeat bottom ;
+     width: 100%;
+     max-height: 800px;
+     background-size: cover;
+     background-attachment: scroll;
+     object-fit: cover;
+
+ } */
+
+ .sdghead{
+    width: fit-content;
+    height: fit-content;
+    
+ }
+
+ #bglandingpg{
+     background: url(img/7609.jpg) no-repeat center;
+     width: 100%;
+     max-height: 100%;
+     background-size: cover;
+     background-attachment: fixed;
+     object-fit: cover;
+ }
+.head1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    text-shadow: 10px;
+    color: white;
+    padding: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* #thisprogram :hover{
+    box-shadow: 0 4px 8px 0 seashell;
+} */
+nav a{
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+     font-weight: bold;
+  }
+  
+  nav li {
+     display: inline;
+     list-style-type: none; /*properti list-style-type dengan nilai none akan menghilangkan tanda titik yang dihasilkan tiap item pada list */
+     margin-right: 20px;
+  }
+  nav.navigasi{
+     background-color: #bdcfee;
+     padding: 5px;
+     position: sticky;
+     top: 0;
+  }
+  
+  #head-nav{
+    display: inline;
+  }
+  
+  #article1{
+      display: flex;
+      border-radius: 5px;
+      
+    border: 3px solid #bdbdbd;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  main{
+      background-color: #e6f7f8;
+  }
+
+    #thisprogram{
+    border-radius: 5px;
+    border: 3px solid #bdbdbd;
+    padding: 20px;
+    margin-top: 20px;  
+  } 
+  
+    #ourgoals{
+    border-radius: 5px;
+    border: 3px solid #bdbdbd;
+    padding: 20px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+  } 
+
+   #more{
+    border-radius: 5px;
+    border: 3px solid #bdbdbd;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+   #aboutme{
+    border-radius: 5px;
+    border: 3px solid #bdbdbd;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   
+   /*iframe video terletak di tengah*/
+   iframe{
+       display: block;
+       margin: 0 auto;
+   }
+
+  /* .card{
+    box-shadow: 0 4px 8px 0 #bdbdbd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  } */
+  
+  .sdgimg{
+      flex-basis: 25%;
+      width: 25%;
+      min-width: 350px;
+      
+  }
+
+.p1{
+      flex-basis: 75%;
+      flex-direction: column;
+  }
+
+.p1 p{
+    flex-basis: 75%;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+.aboutsdg{
+    text-align: center;
+    color: #1398b2 ;
+    font-size: 25px;
+}
+
+.un{
+    position: relative;
+    text-decoration: none;
+    color: #1398b2;
+    border: 3px solid #1398b2;
+    padding: 8px 16px;
+    font-size: 18px;
+}
+
+.un :hover{
+    color: turquoise;
+}
+
+.par2{
+    flex-basis: 25%;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    text-shadow: 5px;
+    color: #1398b2;
+}
+
+/* #ourgoals{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+ */
+h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+    text-align: center;
+}
+
+.goal{
+    flex-basis: 25%;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 5px;
+}
+
+#aboutsdg{
+    text-align: center;
+    color: #28c1df;
+}
+#un{
+    text-align: center;
+    border-radius: 5px;
+    border: #28c1df;
+    margin: 0 auto;
+}
+
+aside .me{
+    width: 600px;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+aside img{
+    min-width: 150px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+footer{
+    padding: 15px;
+    height: auto;
+    text-align: center ;
+    background-color: #bdcfee;
+}
+
+.copyright{
+    padding: 15px;
+    position: relative;
+    text-align: center;
+}
+
+
+   footer p{
+   padding: 20px;
+   color: white;
+   position: relative;
+   text-align: center;
+   clear : both; /* Agar tidak terjadi overlapping pada footer */
+}
+ 
